@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Langdom</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/75d3af6791.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"
+					><img
+						src="/Site/images/branco transparente_recortado.png"
+						alt="logo"
+						class="logo"
+				/></a>
+				<div class="nav-links" id="nav-links">
+					<i
+						class="fa fa-regular fa-circle-xmark"
+						onclick="hideMenu()"
+					></i>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">Sobre Nós</a>
+						</li>
+						<li>
+							<a href="course.html">Cursos</a>
+						</li>
+						<li><a href="englishtobacco.html">English Tobacco</a></li>
+						<li>
+							<a href="contactus.html">Contato</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Visite a nossa escola</h1>
+		</section>
+		<!-- Contact us! -->
+
+		<section class="location">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.1368229675636!2d-52.5030432!3d-29.715795699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951cbacf73aac6b7%3A0xea9b9ecd6c152a7e!2sR.%20Tiradentes%2C%20618%20-%20Centro%2C%20Vera%20Cruz%20-%20RS%2C%2096880-000!5e0!3m2!1spt-BR!2sbr!4v1658878339300!5m2!1spt-BR!2sbr"
+				width="600"
+				height="450"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			></iframe>
+		</section>
+
+		<section class="contact-us">
+			<div class="row">
+				<div class="contact-col">
+					<div>
+						<i class="fa fa-home"></i>
+						<span>
+							<h5>Rua Tiradentes, 618</h5>
+							<p>Vera Cruz, Rio Grande do Sul - Brasil</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-phone"></i>
+						<span>
+							<h5>(51) 99730-9240</h5>
+							<p>Segunda à Sexta 8:00 - 18:00</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-envelope-o"></i>
+						<span>
+							<h5>langdom@langdom.org</h5>
+							<p>Nos envie um e-mail</p>
+						</span>
+					</div>
+				</div>
+				<div class="contact-col">
+					<form
+						action="../Site INDIANO/form-handler.php"
+						method="post"
+					>
+						<input
+							type="text"
+							name="name"
+							placeholder="Insira o seu nome"
+							required
+						/>
+						<input
+							type="email"
+							name="email"
+							placeholder="Insira o seu e-mail"
+							required
+						/>
+						<input
+							type="text"
+							name="subject"
+							placeholder="Assunto"
+							required
+						/>
+						<textarea
+							rows="8"
+							name="message"
+							placeholder="mensagem"
+							required
+						></textarea>
+						<button type="submit" class="hero-btn red-btn">
+							Enviar mensagem
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+
+		<section class="footer">
+			<h4>Sobre nós</h4>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+				quas ipsa aperiam. Eum nihil similique, ea fugit quis vitae
+				nulla.
+			</p>
+			<div class="icons">
+				<a
+					href="https://www.facebook.com/langdomidiomas"
+					target="_blank"
+					><i class="fa fa-facebook"></i
+				></a>
+				<a
+					href="https://www.instagram.com/langdomidiomas/"
+					target="_blank"
+					><i class="fa fa-instagram"></i
+				></a>
+				<a
+					href="https://api.whatsapp.com/send?phone=5551997309240"
+					target="_blank"
+					><i class="fa fa-brands fa-whatsapp"></i
+				></a>
+				<i class="fa fa-youtube"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p class="copy">
+				<a
+					href="https://www.linkedin.com/in/eduardolange/"
+					target="_blank"
+					><i class="fa-regular fa-copyright"></i
+				></a>
+				Eduardo Lange 2022
+			</p>
+		</section>
+
+		<!-- Footer -->
+	</body>
+</html>
