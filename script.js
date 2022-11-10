@@ -7,4 +7,5 @@ function showMenu() {
 	navLinks.style.right = "0";
 }
 
-
+console.log('testing')
+console.log('será que eu consigo?')
