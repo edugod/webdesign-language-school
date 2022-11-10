@@ -8,4 +8,7 @@ function showMenu() {
 }
 
 console.log('testing')
-console.log('será que eu consigo?')
+
+setTimeout(() => {
+	console.log('depois de 1s, todo santo dia eu vou ao menos abrir isso e escrever upar algo xD')
+}, 1000)
